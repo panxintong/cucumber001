@@ -1,0 +1,112 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "login with correct credentail",
+        "description": "",
+        "id": "login;login-with-correct-credentail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17096426032,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open login page",
+            "match": {
+              "location": "LoginSteps.iOpenLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136586343,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter correct userName as \"CN40780\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CN40780",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginSteps.iEnterCorrectUserName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84983119,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter correct password as \"1qazxsw!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1qazxsw!",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginSteps.iEnterCorrectPasswordAs(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13870182958,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login",
+            "match": {
+              "location": "LoginSteps.iClickLoginBtn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1255449017,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I go to home page",
+            "match": {
+              "location": "LoginSteps.iGoToHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@p1"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
